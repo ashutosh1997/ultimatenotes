@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+
+.navbar-brand
+{
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 25px;
+}
+
+.navbar-brand img
+{
+    max-height: 100%;
+}
+
+#mainNavBar a{
+	font-size: 16px;
+	color: #ffffff;
+}
+
+#signup{
+  margin-right: 25px;
+    margin-left: 10px;
+}
+#login{
+    margin-left: 10px;
+}
+
+.dropdown .dropdown-menu {
+	background-color: #3e3e3e;
+	min-width: 100%;
+}
+.dropdown .dropdown-menu a{
+	min-height: 35px;
+}
+.navbar-inverse .navbar-nav li a:hover,.navbar-inverse .navbar-nav li a:focus {
+    background-color: #09F;
+    color: #ffffff;
+}
+
+@media (min-width: 800px) {
+  ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  ul.dropdown-menu li:hover{
+    background-color: #09F;
+    color: #ffffff;
+  }
+}
+
+#myCarousel{
+	margin-top: 51px;
+    z-index: +1;
+}
+
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}

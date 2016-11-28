@@ -1,0 +1,235 @@
+
+/*...CSS For Semesters...*/
+
+#header_sem{
+	width: 100%;
+	background-color: black;
+	top :0;
+	color: white;
+	text-align: center;
+	padding: 5px;
+}
+
+#header_sem h1,h2{
+	
+	animation: blinker 1s cubic-bezier(.5, 0, 1, 1) infinite alternate;  
+}
+
+@keyframes blinker {  
+  from { opacity: 1; }
+  to { opacity: 0; }
+  
+}
+
+#footer_sem{
+	position: fixed;
+  	right: 0;
+  	bottom: 0;
+  	left: 0;
+  	padding: 3px;
+  	background-color: #efefef;
+  	text-align: center;
+}
+
+#back,#home{
+	background-color: black;
+    color: white;
+    padding: 10px 15px;
+    text-align: center; 
+    text-decoration: none;
+	display: block;
+	border-style: solid;
+	border-color: white;
+	position: fixed;
+	bottom : 10px;
+	z-index: 10;
+}
+
+#back{
+	left: 10px;
+}
+
+#home {
+	left: 80px;
+}
+
+#back:hover,#home:hover {
+	background-color: #333333;
+	color: white;
+	border-color: black;
+	cursor: pointer;
+}
+
+#image1{
+	width: 650px;
+	height: 450px;
+	margin-right: 200px;
+	margin-top: 10px;
+	float: right;
+}
+
+#text{
+	position: absolute;
+	display: none;
+    left: 0;
+    width: 100%;
+    top: 30%;
+    text-align: center;
+    font-size: 18px;
+    font: bold;
+}
+
+#default_image:hover #text{
+		display: block;
+}
+
+#default_image:hover{
+	opacity: 0.75;
+	cursor: pointer;
+	transition: opacity 0.5s ease-in-out;
+	
+}
+
+p {
+	float: right;
+	text-align: right;
+}
+
+#l0{
+	display: block;
+	padding: 10px 10px 10px 16px;
+}
+
+#subjects{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 300px;
+    min-width: auto;
+    min-height: 500px;
+    max-height: auto;
+    background-color: #f1f1f1;
+    z-index: +5;
+    position: absolute;
+}
+
+#subjects a {
+    display: block;
+    color: #000;
+    font-size: 18px;
+    padding: 10px 10px 10px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: +5;
+ }
+
+#l0{
+	font-size: 25px;
+	padding: 10px 10px 10px 16px;
+	font-weight: bold;
+}
+
+#l1 a:hover,#l1 a:focus {
+	background-color: green;
+	color: #ffffff;
+}
+#l2 a:hover,#l2 a:focus {
+	background-color: #94602b;
+	color: #ffffff;
+}
+#l3 a:hover,#l3 a:focus {
+	background-color: #767676;
+	color: #ffffff;
+}
+#l4 a:hover,#l4 a:focus {
+	background-color: blue;
+	color: #ffffff;
+}
+#l5 a:hover,#l5 a:focus {
+	background-color: red;
+	color: #ffffff;
+}
+#l6 a:hover,#l6 a:focus {
+	background-color: orange;
+	color: #ffffff;
+}
+#l7 a:hover,#l7 a:focus {
+	background-color: #6503ff;
+	color: #ffffff;
+}
+#l8 a:hover,#l8 a:focus {
+	background-color: #760c0c;
+	color: #ffffff;
+}
+
+
+img.content_back {
+	height: 475px;
+	width: 76%;
+	margin-top: 10px;
+	margin-right: 5px;
+	float: right;
+	position: relative;
+	border-style: solid;
+	border-color: gray;
+	-webkit-filter: brightness(75%);
+	-webkit-filter: blur(1px);
+	background-repeat: repeat-x;
+	z-index:5;
+}
+/*
+#content_box{
+	list-style-type: none;
+    left: 450px;
+    top: 200px;
+    right: 500px;
+    padding: 0;
+    width: 500px;
+    min-width: auto;
+    min-height: 300px;
+    max-height: auto;
+    -webkit-filter: blur(20px);
+    background-color: black;
+    opacity: 0.75;
+    z-index: +5;
+    position: absolute;
+}
+*/
+
+.sem_content li a{
+	display: list-item;
+	position: relative;
+	left: 300px;
+	top: 50px;
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 3px #FFFFFF, 0 0 5px #0000FF;
+    padding: 5px 5px 5px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    z-index: +5;
+}
+
+
+table {
+    border-collapse: collapse;
+    top: 200px;
+    left: 450px;
+    float: right;
+    position: absolute;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+
+

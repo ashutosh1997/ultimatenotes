@@ -1,0 +1,57 @@
+
+/* Modal Content/Box */
+@media (min-width: 450px) {
+    .modal-content {
+        background-color: #fefefe;
+        margin: 0% auto 0% auto; /* 0% from the top, 0% from the bottom and centered */
+        border: 1px solid #888;
+        max-width: 75% /* Could be more or less, depending on screen size */
+    }
+}
+@media (max-width: 450px) {
+  .modal-content {
+      background-color: #fefefe;
+      margin: 0% auto 0% auto; /* 0% from the top, 0% from the bottom and centered */
+      border: 1px solid #888;
+      max-width: 100% /* Could be more or less, depending on screen size */
+  }
+}
+
+.close:hover{
+    color: #dc143c;
+}
+
+.notMember{
+    margin-bottom: 10px;
+}
+
+.RememberMe{
+    float: left;
+}
+
+.agree{
+    float: left;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    /*width: 100%;*/
+}
+
+img.avatar {
+    /*width: 200px;
+    height: 175px;
+    border-radius: 50%;*/
+    margin: 0 auto;
+}
+
+#signupBox{
+
+}
+
