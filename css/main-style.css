@@ -57,7 +57,7 @@
 
 .carousel .item img {
     width: 100%; /*img width*/
-    height:650px;
+    height:640px;
 }
 @media (max-width: 767px) {
     .block {
