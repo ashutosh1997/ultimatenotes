@@ -3,14 +3,13 @@
 
 .navbar-brand
 {
-    padding: 1px;
-    padding-left: 10px;
-    padding-right: 25px;
+    padding: 1px 25px 1px 10px;
 }
 
 .navbar-brand img
 {
     max-height: 100%;
+    padding: 10%;
 }
 
 #mainNavBar a{
@@ -19,11 +18,13 @@
 }
 
 #signup{
-  margin-right: 25px;
+    margin-right: 25px;
     margin-left: 10px;
+    background-color: lightseagreen;
 }
 #login{
     margin-left: 10px;
+    background-color: lightseagreen;
 }
 
 .dropdown .dropdown-menu {
@@ -34,7 +35,8 @@
 	min-height: 35px;
 }
 .navbar-inverse .navbar-nav li a:hover,.navbar-inverse .navbar-nav li a:focus {
-    background-color: #09F;
+    /*background-color: #09F;*/
+    background-color: lightseagreen;
     color: #ffffff;
 }
 
@@ -45,7 +47,8 @@
 }
 @media (max-width: 800px) {
   ul.dropdown-menu li:hover{
-    background-color: #09F;
+    /*background-color: #09F;*/
+    background-color: lightseagreen;
     color: #ffffff;
   }
 }
@@ -56,8 +59,10 @@
 }
 
 .carousel .item img {
-    width: 100%; /*img width*/
-    height:650px;
+    /*width: 100%; !*img width*!*/
+    /*height:650px;*/
+    height: 100vh;
+    width: 100vw;
 }
 @media (max-width: 767px) {
     .block {

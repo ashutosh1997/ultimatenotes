@@ -1,0 +1,36 @@
+.navbar-brand
+{
+    padding: 1px 25px 1px 10px;
+}
+
+.navbar-brand img
+{
+    max-height: 100%;
+    padding: 10%;
+}
+
+body {
+    position: relative;
+}
+
+#cse.active a {background-color: #673ab7;}
+#ece.active a {background-color: #1E88E5;}
+#mae.active a {background-color: #ff9800;}
+#eee.active a {background-color: #00bcd4;}
+#it.active a {background-color: #009688;}
+
+#section1 {padding-top:50px;height:100vh;color: #fff; background-color: #673ab7;}
+#section2 {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5;}
+#section3 {padding-top:50px;height:100vh;color: #fff; background-color: #ff9800;}
+#section4 {padding-top:50px;height:100vh;color: #fff; background-color: #00bcd4;}
+#section5 {padding-top:50px;height:100vh;color: #fff; background-color: #009688;}
+
+.card{
+    margin-top: 10%;
+    background-color: #333;
+    border-color: #333;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+
