@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f3b9029-81f6-46de-90eb-8841185dd450" name="Default" comment="Done">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/branch.html" afterPath="$PROJECT_DIR$/html/branch.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/semester1.html" afterPath="$PROJECT_DIR$/html/cse/cse_semester1.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/semester2.html" afterPath="$PROJECT_DIR$/html/cse/cse_semester2.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/semester3.html" afterPath="$PROJECT_DIR$/html/cse/cse_semester3.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/semester4.html" afterPath="$PROJECT_DIR$/html/cse/cse_semester4.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/semester5.html" afterPath="$PROJECT_DIR$/html/cse/cse_semester5.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/branch.html" afterPath="$PROJECT_DIR$/branch.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/branch.css" afterPath="$PROJECT_DIR$/css/branch.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/branch.js" afterPath="$PROJECT_DIR$/js/branch.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,23 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="branch.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/branch.html">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="branch.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/branch.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+            <state relative-caret-position="17">
+              <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -75,14 +69,15 @@
         <option value="$PROJECT_DIR$/js/index.js" />
         <option value="$PROJECT_DIR$/semester5.html" />
         <option value="$PROJECT_DIR$/css/sem.css" />
-        <option value="$PROJECT_DIR$/js/branch.js" />
         <option value="$PROJECT_DIR$/css/login.css" />
         <option value="$PROJECT_DIR$/js/home.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/login.js" />
         <option value="$PROJECT_DIR$/css/main-style.css" />
         <option value="$PROJECT_DIR$/branch.html" />
         <option value="$PROJECT_DIR$/css/branch.css" />
+        <option value="$PROJECT_DIR$/js/branch.js" />
+        <option value="$PROJECT_DIR$/html/cse/cse_semester5.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -145,20 +140,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultimate1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ultimate1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -174,6 +155,10 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ASHUTOSH\WebstormProjects\ultimate1\html" />
+      <recent name="C:\Users\ASHUTOSH\WebstormProjects\ultimate1\html\cse" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASHUTOSH\WebstormProjects\ultimate1\css" />
       <recent name="C:\Users\ASHUTOSH\WebstormProjects\ultimate1\fonts" />
@@ -183,10 +168,10 @@
     <configuration default="false" name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ultimate1/index.html">
       <method />
     </configuration>
-    <configuration default="false" name="semester5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ultimate1/semester5.html">
+    <configuration default="false" name="cse_semester5.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ultimate1/html/cse/cse_semester5.html">
       <method />
     </configuration>
-    <configuration default="false" name="branch.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ultimate1/branch.html">
+    <configuration default="false" name="branch.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ultimate1/html/branch.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -250,14 +235,14 @@
     </configuration>
     <list size="3">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.semester5.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.cse_semester5.html" />
       <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.branch.html" />
     </list>
     <recent_temporary>
       <list size="3">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.branch.html" />
         <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.semester5.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.cse_semester5.html" />
       </list>
     </recent_temporary>
   </component>
@@ -274,7 +259,7 @@
       <workItem from="1485547071929" duration="8800000" />
       <workItem from="1485555962580" duration="82000" />
       <workItem from="1485556063874" duration="16504000" />
-      <workItem from="1485599249022" duration="21654000" />
+      <workItem from="1485599249022" duration="22994000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1485550265665</created>
@@ -301,7 +286,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47040000" />
+    <option name="totallyTimeSpent" value="48380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -314,9 +299,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18898809" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -337,6 +322,9 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -349,7 +337,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/branch.html">
+    <entry file="file://$PROJECT_DIR$/html/branch.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -367,16 +355,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semester5.html">
+    <entry file="file://$PROJECT_DIR$/html/cse/cse_semester5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#490#495#0" expanded="false" />
-            <element signature="e#804#809#0" expanded="false" />
-            <element signature="e#865#870#0" expanded="false" />
-            <element signature="e#1471#1476#0" expanded="false" />
-            <element signature="e#7297#7303#0" expanded="false" />
+            <element signature="e#514#519#0" expanded="false" />
+            <element signature="e#834#839#0" expanded="false" />
+            <element signature="e#895#900#0" expanded="false" />
+            <element signature="e#1501#1506#0" expanded="false" />
+            <element signature="e#7327#7333#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -389,16 +377,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semester5.html">
+    <entry file="file://$PROJECT_DIR$/html/cse/cse_semester5.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#490#495#0" expanded="false" />
-            <element signature="e#804#809#0" expanded="false" />
-            <element signature="e#865#870#0" expanded="false" />
-            <element signature="e#1471#1476#0" expanded="false" />
-            <element signature="e#7297#7303#0" expanded="false" />
+            <element signature="e#514#519#0" expanded="false" />
+            <element signature="e#834#839#0" expanded="false" />
+            <element signature="e#895#900#0" expanded="false" />
+            <element signature="e#1501#1506#0" expanded="false" />
+            <element signature="e#7327#7333#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -411,7 +399,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semester1.html">
+    <entry file="file://$PROJECT_DIR$/html/cse/cse_semester1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -422,13 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="451">
           <caret line="853" column="35" lean-forward="true" selection-start-line="853" selection-start-column="35" selection-end-line="853" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -458,32 +439,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/semester5.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3536">
-          <caret line="208" column="0" lean-forward="true" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
-          <folding>
-            <element signature="e#490#495#0" expanded="false" />
-            <element signature="e#804#809#0" expanded="false" />
-            <element signature="e#865#870#0" expanded="false" />
-            <element signature="e#1471#1476#0" expanded="false" />
-            <element signature="e#7297#7303#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/js-image-slider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/branch.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -553,17 +512,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/branch.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="false" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/branch.html">
+    <entry file="file://$PROJECT_DIR$/js/branch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
+        <state relative-caret-position="277">
+          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/html/branch.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
           <caret line="49" column="18" lean-forward="false" selection-start-line="49" selection-start-column="18" selection-end-line="49" selection-end-column="18" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -571,10 +546,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/branch.css">
+    <entry file="file://$PROJECT_DIR$/html/cse/cse_semester5.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+        <state relative-caret-position="855">
+          <caret line="208" column="0" lean-forward="false" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="21" column="48" lean-forward="false" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
           <folding />
         </state>
       </provider>

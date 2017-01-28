@@ -29,10 +29,6 @@ $(document).on('click', function(event){
     }
 });
 
-$(document).ready(function(){
-    $(".table").hide();
-});
-
 /*function resize() {
  $("#section1").css({'height':($(window).height())+'px'});
  $("#section2").css({'height':($(window).height())+'px'});
