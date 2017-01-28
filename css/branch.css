@@ -13,17 +13,17 @@ body {
     position: relative;
 }
 
-#cse.active a {background-color: #673ab7;}
-#ece.active a {background-color: #1E88E5;}
+#cse.active a {background-color: #009688;}
+#ece.active a {background-color: #673ab7;}
 #mae.active a {background-color: #ff9800;}
 #eee.active a {background-color: #00bcd4;}
-#it.active a {background-color: #009688;}
+#it.active a {background-color: #1E88E5;}
 
-#section1 {padding-top:50px;height:100vh;color: #fff; background-color: #673ab7; overflow-y: auto;}
-#section2 {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5; overflow-y: auto;}
+#section1 {padding-top:50px;height:100vh;color: #fff; background-color: #009688; overflow-y: auto;}
+#section2 {padding-top:50px;height:100vh;color: #fff; background-color: #673ab7; overflow-y: auto;}
 #section3 {padding-top:50px;height:100vh;color: #fff; background-color: #ff9800; overflow-y: auto;}
 #section4 {padding-top:50px;height:100vh;color: #fff; background-color: #00bcd4; overflow-y: auto;}
-#section5 {padding-top:50px;height:100vh;color: #fff; background-color: #009688; overflow-y: auto;}
+#section5 {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5; overflow-y: auto;}
 
 .card{
     margin-top: 10%;
