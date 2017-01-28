@@ -13,9 +13,6 @@ body {
     position: relative;
 }
 
-body{
-    overflow-y: hidden;
-}
 #cse.active a {background-color: #673ab7;}
 #ece.active a {background-color: #1E88E5;}
 #mae.active a {background-color: #ff9800;}
