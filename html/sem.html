@@ -10,14 +10,14 @@
     <link rel="stylesheet" href="../css/semester.css">
 </head>
 
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="15">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<div class="container-fluid" id="topbar">
-    <h1>Scrollspy & Affix Example</h1>
-    <h3>Fixed navbar on scroll</h3>
-</div>
+<!--<div class="container-fluid" id="topbar">-->
+    <!--<h1>Scrollspy & Affix Example</h1>-->
+    <!--<h3>Fixed navbar on scroll</h3>-->
+<!--</div>-->
 
-<nav class="navbar navbar-inverse" data-spy="affix" id="affix1" data-offset-top="197">
+<nav class="navbar navbar-inverse navbar-fixed-top" ><!--data-spy="affix" id="affix1" data-offset-top="197"-->
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -30,61 +30,274 @@
         <div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav">
-                    <li><a href="">Section 1</a></li>
-                    <li><a href="">Section 2</a></li>
-                    <li><a href="">Section 3</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Section 4-1</a></li>
-                            <li><a href="">Section 4-2</a></li>
-                        </ul>
-                    </li>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="">Semester 1</a></li>
+                    <li><a href="">Semester 2</a></li>
+                    <li><a href="">Semester 3</a></li>
+                    <li><a href="">Semester 4</a></li>
+                    <li id="sem5"><a href="#semester5">Semester 5</a></li>
+                    <li><a href="">Semester 6</a></li>
+                    <li><a href="">Semester 7</a></li>
+                    <li><a href="">Semester 8</a></li>
                 </ul>
             </div>
         </div>
     </div>
 </nav>
 
-<div class="container-fluid">
-        <div class="row">
-            <nav class="col-sm-2" id="myScrollspy">
-                <ul class="nav nav-pills nav-stacked" data-spy="affix" id="affix2" data-offset-top="205">
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                    <li><a href="#section3">Section 3</a></li>
-                    <li class="dropdown">
-                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#section41">Section 4-1</a></li>
-                            <li><a href="#section42">Section 4-2</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
-            <div id="section" class="col-sm-9">
-                <div id="section1">
-                    <h1>Section 1</h1>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                </div>
-                <div id="section2">
-                    <h1>Section 2</h1>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                </div>
-                <div id="section3">
-                    <h1>Section 3</h1>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                </div>
-                <div id="section41">
-                    <h1>Section 4-1</h1>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-                </div>
-                <div id="section42">
-                    <h1>Section 4-2</h1>
-                    <p>Try to scroll this section and look at the navigation list while scrolling!</p>
+<div style="height: 5rem"></div>
+
+<div id="semester5" class="container-fluid" >
+    <div class="row">
+
+        <div class="col-md-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Algorithm Design & Analysis</h3>
+                    <table class="table" id="t1">
+                        <tr>
+                            <td>Introduction To Algorithms by Cormen</td>
+                            <td><a href="https://drive.google.com/file/d/0BwTBgM-WU3ylQWc5UWNBclNyOEE/view?usp=sharing"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td>Fundamentals Of Algorithms by Horowitz &amp; Sahani</td>
+                            <td><a href="https://drive.google.com/file/d/0BwTBgM-WU3ylS0ttZk90M2xjeVE/view?usp=sharing"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td></tr>
+                        <tr>
+                            <td>ADA by Deepak Gupta Part-1</td>
+                            <td><a href="https://drive.google.com/file/d/0BwTBgM-WU3ylemhHb0l1akVrenM/view?usp=sharing"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td>ADA by Deepak Gupta Part-2</td>
+                            <td><a href="https://drive.google.com/file/d/0BwTBgM-WU3ylRERMWTRfMmNJZFE/view?usp=sharing"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td>ADA Akash Term-1</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3yleTJPLW5uNU1fcFU"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td>ADA Akash Term-2</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylSzFFdl9zcUF1UGs"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                        <tr>
+                            <td>ADA Programs</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylZHpSVG1XVzQtbmM"
+                                   target="_blank" class="btn-sm btn-primary button">Download
+                            </a></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Comm. Skills For Professionals</h3>
+                    <table class="table" id="t2">
+                        <tr>
+                            <td>Comm. Skills For Professionals Part-1</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylRG9fNkR2dnNxaXM"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Comm. Skills For Professionals Part-2</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylbnJScTdyNlhlMGM"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Comm. Ethics</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylWm1abG54Z01TU28"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Comm. Akash</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylVVNQOWlUbXpGSVk"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Johari Window</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylY0RsUUNDdlVGOUE"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Plagiarism</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylWTZYLUdnRS0wdWc"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>The 7 C's of Comm.</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylV3VvVUExcGNMSTA"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Digital Communication</h3>
+                    <table class="table" id="t3">
+                        <tr>
+                            <td>Comm. System by Simon Haykin</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylR3p1c3RTa25xRW8"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Proakis - Digital Comm.</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylRmJoVjl0ZC1LVkU"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Modern Digital & Analog Comm. by B.P. Lathi</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylZzhqMF9SNHQ5OU0"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Digital Comm. Practicals</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylakRtLVdwbU5FYnM"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Industrial Management</h3>
+                    <table class="table" id="t4">
+                        <tr>
+                            <td>Industrial Management Part-1</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylRzBMMkE0TndpaU0"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Industrial Management Part-2</td>
+                            <td><a href="" target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>ILO.</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylZkFBQk9zWUZKRlU"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Industrial Relations</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylRHFianhiVnNsSU0"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Labour Legislation</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylak4wb0F4bzZ5TWs"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Trade Union</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylZ29fa3FnNFFvU2c"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Java Programming</h3>
+                    <table class="table" id="t5">
+                        <tr>
+                            <td>Java-2 Complete Reference TMH</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylNFhteVYxOUozUnc"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>AWT</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylU0hWYkZzSi1aY2c"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Event Handling</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylUjFVRDBWUGZqc3c"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Java I/O</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylUUg2QnlCdkN2SFU"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>JDBC Notes-1</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylX2hkbjJ2Tnh0Smc"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>JDBC Notes-2</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylN01hcnlaYjloVTQ"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Multithreading</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylZkEyS2VNZFlROEE"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Java Akash</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3yldDFrRTk4Uko3Mjg"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Java Programs</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylWUc3RTkzbEtjeW8"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-block">
+                    <h3 class="card-title">Software Engineering</h3>
+                    <table class="table" id="t6">
+                        <tr>
+                            <td>Software Engineering by Pressman</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylX3ppbFRoMldnT1E"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>Software Engineering Viva Questions</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylWmh6WmlsTUxPTm8"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                        <tr>
+                            <td>UML Diagrams</td>
+                            <td><a href="https://drive.google.com/open?id=0BwTBgM-WU3ylaE10bGJSYzlsNUk"
+                                   target="_blank" class="btn-sm btn-primary button">Download</a></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
+
+<div style="height: 5rem"></div>
 
 </body>
 </html>

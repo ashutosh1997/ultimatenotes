@@ -1,8 +1,11 @@
+.navbar{
+    margin-bottom: 0;
+}
+
 .navbar-brand
 {
     padding: 1px 25px 1px 10px;
 }
-
 .navbar-brand img
 {
     max-height: 100%;
