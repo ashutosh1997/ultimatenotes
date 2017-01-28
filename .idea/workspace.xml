@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f3b9029-81f6-46de-90eb-8841185dd450" name="Default" comment="Done">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/semester.css" afterPath="$PROJECT_DIR$/css/semester.css" />
-    </list>
+    <list default="true" id="7f3b9029-81f6-46de-90eb-8841185dd450" name="Default" comment="Done" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -39,8 +37,8 @@
       <file leaf-file-name="semester.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/semester.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+            <state relative-caret-position="153">
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -286,7 +284,7 @@
       <workItem from="1485547071929" duration="8800000" />
       <workItem from="1485555962580" duration="82000" />
       <workItem from="1485556063874" duration="16504000" />
-      <workItem from="1485599249022" duration="39628000" />
+      <workItem from="1485599249022" duration="39941000" />
     </task>
     <task id="LOCAL-00001" summary="Done">
       <created>1485550265665</created>
@@ -313,7 +311,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65014000" />
+    <option name="totallyTimeSpent" value="65327000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -603,8 +601,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/semester.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
