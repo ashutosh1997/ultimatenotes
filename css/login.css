@@ -29,6 +29,10 @@
     float: left;
 }
 
+.psw{
+    float: right;
+}
+
 .agree{
     float: left;
 }
@@ -51,7 +55,4 @@ img.avatar {
     margin: 0 auto;
 }
 
-#signupBox{
-
-}
 
