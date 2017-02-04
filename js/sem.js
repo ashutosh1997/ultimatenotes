@@ -13,6 +13,9 @@ $(document).on('click', function(event){
     }
 });
 
+/*window.onbeforeunload = function() {
+    return "Data will be lost if you leave the page, are you sure?";
+};*/
 /*
 var flag=0;
 
