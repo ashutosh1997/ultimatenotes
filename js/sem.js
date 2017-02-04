@@ -13,71 +13,86 @@ $(document).on('click', function(event){
     }
 });
 
-$(document).ready(function(){
-    $(".table").hide();
-});
-
-/*function resize() {
-    $("#section1").css({'height':($(window).height())+'px'});
-    $("#section2").css({'height':($(window).height())+'px'});
-    $("#section3").css({'height':($(window).height())+'px'});
-    $("#section41").css({'height':($(window).height())+'px'});
-    $("#section42").css({'height':($(window).height())+'px'});
-}
-
-$(document).ready(function() {
-    resize();
-    $(window).bind('resize', resize);
-});*/
+/*
+var flag=0;
 
 $(document).ready(function(){
 
-    $("#l1 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t1").show();
+    $("#cse-btn-1").click(function(){
+        flag=1;
+        window.location.href = "sem.html";
     });
-
-    $("#l2 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t2").show();
+    $("#cse-btn-2").click(function(){
+        flag=2;
+        window.location.href = "sem.html";
     });
-
-    $("#l3 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t3").show();
+    $("#cse-btn-3").click(function(){
+        flag=3;
+        window.location.href = "sem.html";
     });
-
-    $("#l4 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t4").show();
+    $("#cse-btn-4").click(function(){
+        flag=4;
+        window.location.href = "sem.html";
     });
-
-    $("#l5 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t5").show();
+    $("#cse-btn-5").click(function(){
+        flag=5;
+        window.location.href = "sem.html";
     });
-
-    $("#l6 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t6").show();
+    $("#cse-btn-6").click(function(){
+        flag=6;
+        window.location.href = "sem.html";
     });
-
-    $("#l7 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t7").show();
+    $("#cse-btn-7").click(function(){
+        flag=7;
+        window.location.href = "sem.html";
     });
-
-    $("#l8 a").click(function(){
-        $("#default_image").hide();
-        $(".table").hide();
-        $("#t8").show();
+    $("#cse-btn-8").click(function(){
+        flag=8;
+        window.location.href = "sem.html";
     });
 
 });
+/*
+$(document).ready(function () {
+    if(flag==1)
+    {
+        $(".content").hide();
+        $("#cse-sem-1").show();
+    }
+    else if(flag==2)
+    {
+        $(".content").hide();
+        $("#cse-sem-2").show();
+    }
+    else if(flag==3)
+    {
+        $(".content").hide();
+        $("#cse-sem-3").show();
+    }
+    else if(flag==4)
+    {
+        $(".content").hide();
+        $("#cse-sem-4").show();
+    }
+    else if(flag==5)
+    {
+        $(".content").hide();
+        $("#cse-sem-5").show();
+    }
+    else if(flag==6)
+    {
+        $(".content").hide();
+        $("#cse-sem-6").show();
+    }
+    else if(flag==7)
+    {
+        $(".content").hide();
+        $("#cse-sem-7").show();
+    }
+    else if(flag==8)
+    {
+        $(".content").hide();
+        $("#cse-sem-8").show();
+    }
+});
+*/

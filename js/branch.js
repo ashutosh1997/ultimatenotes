@@ -3,18 +3,6 @@
  */
 
 
-/*$(window).resize(function() {
-    if ($(window).width() < 200) {
-        $("#section2").hide();
-        $("#section3").hide();
-        $("#section4").hide();
-        $("#section5").hide();
-    }
-    else {
-    }
-});*/
-
-
 $(document).on('click', function(event){
     var $clickedOn = $(event.target),
         $collapsableItems = $('.collapse'),
@@ -29,6 +17,8 @@ $(document).on('click', function(event){
     }
 });
 
+
+// This way would also allow going to another pages anchors like so
 /*function resize() {
  $("#section1").css({'height':($(window).height())+'px'});
  $("#section2").css({'height':($(window).height())+'px'});
