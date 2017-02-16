@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo</title>
+	<link rel="stylesheet" type="text/css" href="/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=desert"></script>
+	<!--<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=css&amp;skin=sunburst"></script>-->
+    <style>
+		body{
+			background-color: #cecece;
+		}
+
+        li.L0, li.L1, li.L2, li.L3,
+        li.L5, li.L6, li.L7, li.L8 {
+            list-style-type: decimal !important;
+        }
+	.code-contain{
+		background-color:#333333;
+		height: 100%;
+		width:60rem;
+		overflow: scroll;
+		margin-right: auto;
+		margin-left: auto;
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+    </style>
+</head>
+
+<body>
+
+<div class="code-contain">
+<pre class="prettyprint linenums lang-c">
+#include "stdio.h"
+#include "conio.h"
+#include "malloc.h"
+
+typedef struct Node
+{
+	int data,pos;
+	struct Node *next;
+} node;
+
+int count=0,et[10],n,wt[10]={0},total_tt=0,total_wt=0;
+float avg_tt=0.0,avg_wt=0.0;
+
+node* insert(node *start, int et, int i)
+{
+	node *temp,*ptr;
+	if(start==NULL)
+	{
+		start=(node*)malloc(sizeof(node));
+		start->data=et;
+		start->pos=i;
+		start->next=NULL;
+	}
+	else
+	{
+		temp=start;
+		while(temp->next!=NULL)
+		{
+			temp=temp->next;
+		}
+		ptr=(node*)malloc(sizeof(node));
+		ptr->data=et;
+		ptr->pos=i;
+		temp->next=ptr;
+		ptr->next=NULL;
+	}
+	return start;
+}
+
+void calculate(node *start)
+{
+	int et2=0;
+	for (int i = 0; i < n; ++i)
+	{
+		et2=0;
+		for (node* temp=start;temp->next!=NULL ;temp=temp->next)
+		{
+			if (temp->pos==i)
+				et2+=temp->data;
+			else if(et2 < et[i])
+				wt[i]+=temp->data;
+		}
+		total_wt+=wt[i];
+		total_tt+=wt[i]+et[i];
+	}
+	avg_wt=(float)total_wt/n;
+	avg_tt=(float)total_tt/n;
+}
+
+int main()
+{
+	int i,j=0,k,total=0,slice,data2,pos2,prev,prev2,flag=0;
+	node *start=NULL,*temp,*temp2;
+
+	printf("\n ..........Round Robin CPU Scheduling..........\n");
+	printf("\n Enter the number of processes : ");
+	scanf("%d",&n);
+	printf("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	printf("\n  Process\t\tExecution Time(seconds)");
+	printf("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n");
+	for (i = 0; i < n; ++i)
+	{
+		printf("  Process [%d]\t:\t\t ",i+1);
+		scanf(" %d",&et[i]);
+		total+=et[i];
+		start=insert(start,et[i],i);
+	}
+	printf("\n Enter time slice : ");
+	scanf("%d",&slice);
+
+	temp=start;
+	while(1)
+	{
+		if (temp->data > slice)
+		{
+			temp->data -= slice;
+			data2=temp->data;
+			temp->data = slice;
+			pos2=temp->pos;
+			start=insert(start,data2,pos2);
+		}
+		count++;
+		if(temp->next!=NULL)
+			temp=temp->next;
+		else break;
+	}
+
+	printf("\n........GANTT CHART........\n ");
+	for (j = 0; j < 5; ++j)
+	{
+		if(j>0 && j<4){	printf("\n|");	}
+		else if(j==4){	printf("\n0");	}
+		k=0;prev=0,prev2=0;temp=temp2=start;
+		for (i = 0; i <= total; ++i)
+		{
+			if (i==temp->data+prev)
+			{
+				if(j==0)
+					{	printf("____");	}
+				else if (j==2 && temp->data==1)
+				{	printf(" P%d|",temp->pos + 1);
+					flag=1;temp2=temp2->next;	}
+				else if(j<3)
+					{	printf("   |");	}
+				else if(j==3)
+					{	printf("___|");	}
+				else if(i/10==0)
+					{	printf("   %d",i);	}
+				else
+					{	printf("  %d",i);	}
+				prev=i;k++;temp=temp->next;
+			}
+			else {
+				if(j==0)
+					{	printf("____");	}
+				if(j==1 || j==4)
+					printf("    ");
+				else if(j==2)
+				{
+					if(i==prev2+1 || flag==1)
+					{	printf("  P%d",temp2->pos + 1);
+						prev2=i-1+temp2->data;
+						temp2=temp2->next;
+					}
+					else
+						printf("    ");
+				}
+				else if(j==3) printf("____");
+			}
+		}
+	}
+
+	calculate(start);
+	printf("\n\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	printf("\n  Process\t\tExecution Time\t\tWaiting Time\t\tTurnaround Time");
+	printf("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	for (i = 0; i < n; ++i)
+		printf("\n  Process [%d]\t\t\t%d\t\t\t%d\t\t\t%d",i+1,et[i],wt[i],wt[i]+et[i]);
+	printf("\n ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~");
+	printf("\n  Total   : \t\t\t\t\t\t%d\t\t\t%d",total_wt,total_tt);
+	printf("\n\t\t\t\t\t\t\t~~~~~~~~~\t\t~~~~~~~~~");
+	printf("\n  Average : \t\t\t\t\t\t%.2f\t\t\t%.2f",avg_wt,avg_tt);
+	getch();
+	return 0;
+}
+</pre>
+</div>
+</body>
+</html>
