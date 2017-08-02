@@ -13,6 +13,12 @@ $(document).on('click', function(event){
     }
 });
 
+window.onload = function() {
+    var x = $('.items:visible').prop('id');
+    $(".content").css({"display": "none"});
+    $(x).css({"display": "block"});
+};
+
 /*window.onbeforeunload = function() {
     return "Data will be lost if you leave the page, are you sure?";
 };*/

@@ -16,18 +16,3 @@ $(document).on('click', function(event){
         });
     }
 });
-
-
-// This way would also allow going to another pages anchors like so
-/*function resize() {
- $("#section1").css({'height':($(window).height())+'px'});
- $("#section2").css({'height':($(window).height())+'px'});
- $("#section3").css({'height':($(window).height())+'px'});
- $("#section41").css({'height':($(window).height())+'px'});
- $("#section42").css({'height':($(window).height())+'px'});
- }
-
- $(document).ready(function() {
- resize();
- $(window).bind('resize', resize);
- });*/

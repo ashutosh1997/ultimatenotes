@@ -9,8 +9,9 @@ body{
 	width: 100%;
 	z-index: 9999 !important;
 }
+
 .navbar {
-	margin-bottom: 0px;
+	margin-bottom: 0;
 	border-radius: 0;
 }
 
@@ -28,18 +29,36 @@ body{
 	color: #fff;
 }
 
+.row{
+	width: auto;
+}
 .card-block{
 	height: 45rem;
 }
 
-#sem1.active a {background-color: #3e3e3e;}
-#sem2.active a {background-color: #3e3e3e;}
-#sem3.active a {background-color: #3e3e3e;}
-#sem4.active a {background-color: #3e3e3e;}
-#sem5.active a {background-color: #3e3e3e;}
-#sem6.active a {background-color: #3e3e3e;}
-#sem7.active a {background-color: #3e3e3e;}
-#sem8.active a {background-color: #3e3e3e;}
+.button{
+	float: right;
+}
+
+#sem1.active a ,#sem2.active a,#sem3.active a,#sem4.active a,
+#sem5.active a ,#sem6.active a,#sem7.active a,#sem8.active a
+{
+	background-color: #3e3e3e;
+}
+
+/*.content{
+	display: none;
+}
+
+#cse-sem-6{
+	display: block;
+}*/
+
+@media only screen and (max-width: 768px) {
+	.card-block{
+		height: auto;
+	}
+}
 
 
 
